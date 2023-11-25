@@ -1,0 +1,83 @@
+<style>
+    /*new header*/
+    .card .card-body {
+        padding: 0.9375rem 20px;
+        position: relative;
+    }
+
+    .card .card-body,
+    .card .card-footer {
+        padding: 0.9375rem 1.875rem;
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+
+    .card {
+        border: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-radius: 6px;
+        color: #333333;
+        background: #fff;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+    }
+
+    .card .card-header {
+        z-index: 3 !important;
+    }
+
+    .card .card-header-primary .card-icon,
+    .card .card-header-primary .card-text,
+    .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+    .card.bg-primary,
+    .card.card-rotate.bg-primary .front,
+    .card.card-rotate.bg-primary .back {
+        background: linear-gradient(30deg, #ebeded, #08333c);
+    }
+
+    .card .card-header-primary .card-icon,
+    .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+    .card .card-header-primary .card-text {
+        box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgb(7 49 58);
+    }
+
+    .card [class*="card-header-"] {
+        margin: 0px 15px 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .card .card-header {
+        z-index: 3 !important;
+    }
+
+    .card [class*="card-header-"]:not(.card-header-icon):not(.card-header-text):not(.card-header-image) {
+        border-radius: 3px;
+        margin-top: -20px;
+        padding: 15px;
+    }
+
+    .card .card-header {
+        border-bottom: none;
+    }
+
+    .card .card-header .card-title {
+
+        margin-bottom: 3px;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 20px;
+        color: #083944;
+    }
+
+    .card {
+        box-shadow: 0 3px 10px 0 rgb(7 49 58);
+    }
+</style>
